@@ -1,0 +1,14 @@
+{
+    "name": "Browsing Data Cleaner",
+    "version": "1.0.0.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "permissions": [
+        "browsingData"
+    ]
+}
